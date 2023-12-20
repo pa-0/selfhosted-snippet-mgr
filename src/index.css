@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url('fonts/gothamrnd_light.otf') format('otf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url('fonts/gothamrnd_book.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url('fonts/gothamrnd_medium.otf') format('otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Rounded';
+  src: url('fonts/gothamrnd_bold.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  font-family: 'Gotham Rounded';
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #4f5770;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* TODO: Find a better way to implement these styles. */
+.ace_gutter {
+  color: #90939e !important;
+  background: transparent !important;
+}
+.ace_gutter-cell {
+  padding-left: 0 !important;
+  padding-right: 2rem !important;
+}
+.ace_gutter-active-line {
+  background: transparent !important;
+}
+.ace_bracket {
+  border: none !important;
+}
+.ace_selection {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+.ace_placeholder {
+  color: #90939e !important;
+  font-family: 'Gotham Rounded' !important;
+  font-size: 18px !important;
+  margin: 0 !important;
+}
