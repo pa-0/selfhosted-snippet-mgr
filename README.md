@@ -2,6 +2,8 @@
 
 A browser-based snippet manager that stores data in local storage. Just open it up and start saving your snippets.
 
+Try it here: [https://snippets.reecehunter.dev](https://snippets.reecehunter.dev)
+
 <img src="https://i.imgur.com/ygLT8p5.png" />
 
 # Contributions
